@@ -1,0 +1,54 @@
+
+.p-icon-content {
+    width: 5%;
+}
+
+.p-icon-content {
+    position: relative;
+}
+.p-icon-content::before {
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: #212529;
+    position: absolute;
+    left: -80px;
+    top: 15px;
+}
+.p-icon-content::after {
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: #212529;
+    position: absolute;
+    right: -80px;
+    top: 15px;
+}
+
+
+.p-item {
+    position: relative;
+   margin-bottom: 2rem;
+   margin-inline: 2rem;
+  
+}
+.p-item img {
+    border-radius: 15px;
+}
+.p-item-caption {
+    background-color: rgba(26, 188, 156, 0.9);;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+ display: none;
+}
+.p-item-icon i {
+    color: aliceblue;
+    font-size: 8rem;
+}
+.p-item:hover .p-item-caption {
+    display: flex;
+    cursor: pointer;
+}

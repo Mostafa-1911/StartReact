@@ -1,0 +1,10 @@
+
+
+
+.navbar-nav a {
+    color: white;
+    font-size: 1.25rem;
+}
+.navbar-nav a:hover {
+    color: #1abc9c;
+}
